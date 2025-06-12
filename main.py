@@ -16,7 +16,7 @@ with col1:
 with col2:
     st.markdown("")
     st.markdown("")
-    st.markdown("# စစ်ကိုင်းဖက်ဒရယ်ယူနစ် CDM နိုင်ငံဝန်ထမ်းများကောင်စီ")
+    st.markdown("## စစ်ကိုင်းဖက်ဒရယ်ယူနစ် CDM နိုင်ငံဝန်ထမ်းများကောင်စီ")
     st.markdown("")
 st.write("")
 df=pd.read_csv("ccsc_sfu.csv")
