@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 from PIL import Image
-logo=Image.open("logo/ccsc_sfc_logo.png")
+logo=Image.open("ccsc_sfc_logo.png")
 st.set_page_config(
     layout="wide",
     page_icon=logo,
@@ -12,7 +12,7 @@ st.set_page_config(
 )
 col1,col2 = st.columns([1,4])
 with col1:
-    st.image("logo\ccsc_sfc_logo.png",width=300)
+    st.image("ccsc_sfc_logo.png",width=300)
 with col2:
     st.markdown("")
     st.markdown("")
